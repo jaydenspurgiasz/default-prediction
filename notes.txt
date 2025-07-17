@@ -1,0 +1,20 @@
+https://www.kaggle.com/datasets/wordsforthewise/lending-club
+
+Starting project by cleaning data, useful columns seem to be:
+
+LightGBM:
+75.8%
+
+Switched to:
+LinearSVC:
+87.1%
+64.6%(balanced)
+-But 0% of high risk cases are correctly predicted
+
+RandomForest:
+87.1%
+-But 1% of high risk cases are correctly predicted
+
+Lets use SMOTE to "balance" out data
+
+SMOTE + RandomForestClassifier:
