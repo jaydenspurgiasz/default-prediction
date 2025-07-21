@@ -15,6 +15,18 @@ RandomForest:
 87.1%
 -But 1% of high risk cases are correctly predicted
 
+XGBoost:
+
+
 Lets use SMOTE to "balance" out data
 
-SMOTE + RandomForestClassifier:
+SMOTE + LightGBM:
+best params: {'lambda_l1': 0.000306009500542766,
+ 'lambda_l2': 8.279259632222018e-05,
+ 'num_leaves': 248,
+ 'feature_fraction': 0.816224984482257,
+ 'bagging_fraction': 0.5222257216310624,
+ 'bagging_freq': 4,
+ 'min_child_samples': 18}
+
+ 93.4%
